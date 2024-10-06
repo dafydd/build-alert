@@ -48,27 +48,15 @@ def initInterfaceKit(kit):
       kit.setOnAttachHandler(inferfaceKitAttached)
       kit.setOnDetachHandler(interfaceKitDetached)
       kit.setOnErrorhandler(interfaceKitError)
-  except PhidgetException as e:
-      print("Phidget Exception %i: %s" % (e.code, e.details))
-      print("Exiting....")
-      exit(1)
-  print("Opening phidget object....")
-  try:
+      print("Opening phidget object....")
       kit.openPhidget()
-  except PhidgetException as e:
-      print("Phidget Exception %i: %s" % (e.code, e.details))
-      print("Exiting....")
-      exit(1)
-  try:
       kit.waitForAttach(10000)
   except PhidgetException as e:
       print("Phidget Exception %i: %s" % (e.code, e.details))
       try:
           kit.closePhidget()
       except PhidgetException as e:
-          print("Phidget Exception %i: %s" % (e.code, e.details))
-          print("Exiting....")
-          exit(1)
+          pass
       print("Exiting....")
       exit(1)
 
