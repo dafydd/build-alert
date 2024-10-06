@@ -11,8 +11,6 @@ import httplib
 import time
 import random
 import signal
-
-
 from ctypes import *
 import sys
 import random
