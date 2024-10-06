@@ -26,7 +26,7 @@ At the top of the file `poller_with_kit.py` there are three hard-coded variables
 ## Better Modern Ways to do it?
 Today there are most likely better options. 
 
-I chose the Phidgets hardware because it was a ready-made solution and could in principle switch a mains powered lamp although I didn't need to try this. The blue strobe lamp shown in the picture is actually a running on a 12V DC power adapter. 
+I chose the Phidgets hardware because it was a ready-made solution and could in principle switch a mains powered lamp although I didn't need to try this. The blue strobe lamp shown in the picture is actually running on a 12V DC power adapter. 
 
 Some other ways you could easily do this:
 
