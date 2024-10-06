@@ -30,7 +30,7 @@ I chose the Phidgets hardware because it was a ready-made solution and could in 
 
 Some other ways you could easily do this:
 
-- Set up a Raspberry PI / Beaglebone Black as a stand-alone "build alert server" and power a relay from the GPIO pins. You can even get a fairly inexpensive ready-made interface board to handle the relay, such as the [Featherwing](https://www.adafruit.com/product/3191) one from Adafruit.
+- Set up a Raspberry PI / Beaglebone Black as a stand-alone "build alert server" and power a relay from the GPIO pins. You can even get a fairly inexpensive ready-made interface board to handle the relay such as the [Featherwing](https://www.adafruit.com/product/3191) one from Adafruit.
 - Configure a Raspberry Pi Pico microcontroller with a custom MicroPython script that connects and polls over wi-fi. It could operate a relay or even simpler and cheaper maybe just a bunch of LEDs pointing in all directions.
 
 
