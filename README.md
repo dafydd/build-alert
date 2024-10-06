@@ -19,7 +19,7 @@ This board has big fat tracks on the switched side of the board and the relays a
 At the top of the file `poller_with_kit.py` there are three hard-coded variables:
 
 - `normal_poll_waiting_time` This is the number of seconds between attempts to check the build server state.
-- `alert_for_seconds` The number of seconds that the relay is left open - i.e. the duration of the flashing strobe
+- `alert_for_seconds` The number of seconds that the relay is switched on - i.e. the duration of the flashing strobe
 - `after_breakage_resume_polling_after_seconds` We don't need to be continuously nagged until the build is fixed so we wait this number of seconds before we resume polling again.
 
 
