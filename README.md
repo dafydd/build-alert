@@ -15,7 +15,7 @@ This board has big fat tracks on the switched side of the board and the relays a
 > [!TIP] 
 > To run this You need to install the driver to get this working and this has changed on the mac: https://www.phidgets.com/docs/OS_-_macOS#Getting_started_with_macOS
 
-- In the UK you can get this from [Active Robots](https://www.active-robots.com/1014-3-phidget-interface-kit-0-0-4.html)
+- In the UK you can buy the hardware from [Active Robots](https://www.active-robots.com/1014-3-phidget-interface-kit-0-0-4.html)
 
 ## Configuration
 At the top of the file `poller_with_kit.py` there are three hard-coded variables:
