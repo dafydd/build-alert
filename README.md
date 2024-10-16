@@ -1,5 +1,5 @@
 # build-alert
-Polls a jenkins build status page and switches on a relay for a given period of time if the build is broken. The relay is expected to power a highly conspicuous strobe light.
+Polls a jenkins build status page and switches on a relay for a given period of time if the build is broken. 
 
 One of the teams I worked in didn't have a direct way of getting alerts when the build broke. Email notifications are no use if people are just busy in their IDEs so we wanted something a little more conspicuous. 
 I thought it would be fun to set up an industrial-type strobe light. I wanted a big, red strobe but at the time the only thing I could find that looked practical was a small but very bright blue mini-strobe.
