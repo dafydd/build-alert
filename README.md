@@ -12,7 +12,9 @@ Originally written in Python 2 in 2012 and tested on macOs and Ubuntu Linux.
 This uses the ["PhidgetInterfaceKit"](https://www.phidgets.com/?prodid=1228). 
 This board has big fat tracks on the switched side of the board and the relays are rated for more than 240 big man-volts of British Mains Electricity at 3 Amps. Far more than enough for my small, blue strobe light.
 
-- You need to install the driver to get this working and this has changed on the mac: https://www.phidgets.com/docs/OS_-_macOS#Getting_started_with_macOS
+> [!TIP] 
+> To run this You need to install the driver to get this working and this has changed on the mac: https://www.phidgets.com/docs/OS_-_macOS#Getting_started_with_macOS
+
 - In the UK you can get this from [Active Robots](https://www.active-robots.com/1014-3-phidget-interface-kit-0-0-4.html)
 
 ## Configuration
